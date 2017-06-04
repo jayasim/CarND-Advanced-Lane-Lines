@@ -31,7 +31,7 @@ If you're feeling ambitious (again, totally optional though), don't stop there! 
 ### Color & Gradient threshhold
 
 ### Perspective transform
-![alt text][image8]
+![alt text][image1]
 <p align="center"><b>Processed Image Grid</b></p>
 <br>
 
