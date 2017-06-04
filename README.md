@@ -34,6 +34,7 @@ The objpoints and imgpoints are then used to compute the camera calibration matr
 ![alt text][image4]
 <p align="center"><b>Chessboard corners</b></p>
 <br>
+
 ### Distortion Correction
 The cv2.undistort() functin was used for distortion correction on same chessboard images. The undistort_img() function serves the purpose of applying cv2.calibrateCamera() and cv2.undistort() to the input image.
 ![alt text][image2]
