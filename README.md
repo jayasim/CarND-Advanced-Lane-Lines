@@ -15,6 +15,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 [image1]: ./output_images/processed_images.png "Processed Image Grid"
+[image2]: ./output_images/dist-undist-image.png
+[image3]: ./output_images/curvature_measurements.png
 
 The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing your pipeline on single frames.  If you want to extract more test images from the videos, you can simply use an image writing method like `cv2.imwrite()`, i.e., you can read the video in frame by frame as usual, and for frames you want to save for later you can write to an image file.  
 
@@ -25,13 +27,15 @@ The `challenge_video.mp4` video is an extra (and optional) challenge for you if 
 If you're feeling ambitious (again, totally optional though), don't stop there!  We encourage you to go out and take video of your own, calibrate your camera and show us how you would implement this project from scratch!
 
 ### Camera calibration
+![alt text][image1]
+<br>
 
 ### Distortion Correction
 
 ### Color & Gradient threshhold
 
 ### Perspective transform
-![alt text][image1]
+![alt text][image2]
 <p align="center"><b>Processed Image Grid</b></p>
 <br>
 
@@ -40,6 +44,9 @@ If you're feeling ambitious (again, totally optional though), don't stop there! 
 ### Sliding window search
 
 ### Measuring Curvature
+![alt text][image3]
+<p align="center"><b>Radius and Offset Measurement</b></p>
+<br>
 
 ### Issues faced
 
