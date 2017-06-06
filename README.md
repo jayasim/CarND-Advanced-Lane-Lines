@@ -19,6 +19,7 @@ The goals / steps of this project are the following:
 [image3]: ./output_images/curvature_measurements.png
 [image4]: ./output_images/corners.png "Chessboard Corners"
 [image5]: ./output_images/fitpolynomial.jpg
+[video1]: ./project_video_processed.mp4 "Video"
 
 The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing your pipeline on single frames.  If you want to extract more test images from the videos, you can simply use an image writing method like `cv2.imwrite()`, i.e., you can read the video in frame by frame as usual, and for frames you want to save for later you can write to an image file.  
 
@@ -63,6 +64,14 @@ We first check the histogram of the lower of image and find the two peaks for th
 <p align="center"><b>Radius and Offset Measurement</b></p>
 <br>
 Given the detected points, we determine a second degree polynomial that fits these points, and then we calculate the radius of curvature of this polynomial. Also, we convert from the pixel space to real space in meters. I did this in calculate_curvature_offset() function.
+
+### Project Video 
+
+Provide a link to your final video output. Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
+
+Here's a [link to my video result](./project_video_processed.mp4)
+
+![video1]
 
 ### Issues faced
 
