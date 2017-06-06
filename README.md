@@ -71,7 +71,6 @@ Provide a link to your final video output. Your pipeline should perform reasonab
 
 Here's a [link to my video result](./project_video_processed.mp4)
 
-![video1]
 
 ### Issues faced
 
